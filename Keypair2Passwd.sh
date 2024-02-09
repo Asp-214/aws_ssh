@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt install git -y
 
-git clone https://github.com/Asp-214/aws_ssh.git /mnt
+git clone https://github.com/Asp-214/aws_ssh.git /mnt/aws_ssh
 
 rm /etc/ssh/sshd_config
 
