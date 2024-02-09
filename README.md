@@ -1,2 +1,2 @@
-<h1>*KeyPair2Passwd - Use on AWS EC2 Launch*</h1>
-**Only for Ubuntu**
+<h2>KeyPair2Passwd - Use on AWS EC2 Launch</h2>
+Only for Ubuntu
