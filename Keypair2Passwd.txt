@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install git -y
 
 # Clone the Git repository
-git clone <repository_url> /mnt
+git clone https://github.com/Asp-214/aws_ssh.git /mnt
 
 # Remove the original sshd_config
 rm /etc/ssh/sshd_config
