@@ -11,10 +11,10 @@ git clone https://github.com/Asp-214/aws_ssh.git /mnt
 rm /etc/ssh/sshd_config
 
 # Copy the new sshd_config from the cloned repository
-cp /mnt/repo_name/sshd_config /etc/ssh/sshd_config
+cp /mnt/aws_ssh/sshd_config /etc/ssh/sshd_config
 
 # Remove the cloned repository
-rm -rf /mnt/repo_name/      # Removes the cloned repository
+rm -rf /mnt/aws_ssh/      # Removes the cloned repository
 
 # Change password for user "ubuntu" to "user"
 echo "ubuntu:user" | sudo chpasswd
