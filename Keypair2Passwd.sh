@@ -7,9 +7,9 @@ git clone https://github.com/Asp-214/aws_ssh.git /mnt
 
 rm /etc/ssh/sshd_config
 
-cp /mnt/repo_name/sshd_config /etc/ssh/sshd_config
+cp /mnt/aws_ssh/sshd_config /etc/ssh/sshd_config
 
-rm -rf /mnt/repo_name/
+rm -rf /mnt/aws_ssh/
 
 echo "ubuntu:user" | sudo chpasswd
 
